@@ -1,0 +1,139 @@
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    font-size: 62.5%;
+    margin:0 auto;
+    max-width: 720px;
+}
+.header{
+    width:100%;
+    background: #5fc0cd;
+    position:relative;
+}
+.back{
+    width:5%;
+    position:absolute;
+    left:4.7%;
+    top:24%;
+}
+.back img{
+    width:100%;
+    max-width:29px;
+}
+.header h1{
+    text-align: center;
+    font-size: 3.6em;
+    color:white;
+    padding:1%;
+}
+#middle{
+    background-image:url("images/bgimg.png");
+    background-size:cover;
+    position:relative;
+    height:329px;
+}
+.person{
+    width:30%;
+    position: absolute;
+    left:4.2%;
+    top:22.5%;
+
+}
+.person img{
+    width:100%;
+    max-width:169px;
+    border-radius: 50%;/* 需要注意*/
+}
+.person_detail{
+    position:absolute;
+    top:25%;
+    left:31%;
+    color:white;
+}
+li{
+    margin: 1.5rem;
+}
+.name{
+    font-size:3.6em;
+}
+.location{
+    font-size:2.4em;
+}
+.location img{
+    max-width: 19px;
+}
+.detail{
+    width:100%;
+    position:relative;
+    height:100px;
+    border-bottom:1px solid #e1e5e7;
+    font-size: 3.2em;
+}
+ul{
+    list-style: none;
+}
+.skill{
+    position: absolute;
+    left:4.2%;
+    top:28%;
+}
+.skill span{
+    color:#5fc0cd;
+
+}
+.more{
+    width:90%;
+    border-bottom:1px solid #e1e5e7;
+    margin-left:5%;
+    padding:3%;
+    font-size: 3.2em;
+}
+span{
+    color:#999999;
+}
+.special{
+    width:58%;
+    display:inline-block;
+    padding:3% 0;
+    vertical-align: middle;
+    color: black;
+}
+.message{
+    width:43%;
+    margin:10% 4% 5% 5%;
+    height:87px;
+    float:left;
+    border-radius: 10px;
+    border:1px solid  #5fc0cd;
+    background: white;
+    font-size: 3.2em;
+
+}
+.message p{
+    width:20%;
+    text-align: center;
+    color: #5fc0cd;
+    padding:10% 40%;
+}
+.contact{
+    width:43%;
+    margin:10% 5% 5% 0;
+    float:right;
+    height:87px;
+    border-radius: 10px;
+    background: #5fc0cd;
+    font-size: 3.2em;
+}
+.contact p{
+    width:40%;
+    color: white;
+    text-align: center;
+    padding:10% 30%;
+}    /*rem是相对html根目录的，em是相对父元素的*/
+@media screen and (max-width: 412px) {
+    html {
+        font-size: 40%;
+    }
+}
