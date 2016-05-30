@@ -1,0 +1,150 @@
+*{
+    padding:0;
+    margin:0;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 720px;
+    height: 1240px;
+    margin:0 auto;
+    font-size: 62.5%;
+}
+.header{
+    padding:1rem 0;
+    background: #5fc0cd;
+    position: relative;
+    text-align: center;
+}
+button{
+    background: #55a8b3;
+    border-radius: 10px;
+    font-size: 2.8em;
+    border-style: none;
+    padding:1rem;
+}
+.choose1{   /*必须是行内元素否则会占一行*/
+    color:white;
+}
+.choose2{
+    background: white;
+    color:#5fc0cd;
+    margin-left: -1rem;
+}
+.locate{
+    width:6%;
+    position:absolute;
+    top:30%;
+    right:1%;
+}
+.middle{
+    width:100%;
+    height:95%;
+}
+.top{
+    width:100%;
+    border-right: 0;
+    border-left: 0;
+}
+.top1{
+    width:33.3%;
+    padding:2% 0 2% 10%;
+    font-size: 2.8em;
+    color:#a1a1a1;
+    float:left;
+    border-style:none;
+    border-right:1px solid #e2e6e8;
+}
+.top1 span{
+    padding-left:33%;
+}
+.clear{
+    clear:both;
+}
+.date{
+    border:1px solid #e1e5e7;
+    font-size:2.8em;
+    border-left:0;
+    border-right: 0;
+}
+.date ul{
+    list-style:none;
+    padding:2% 0 2% 4%;
+}
+.date ul li{
+    padding-bottom:1%;
+}
+.li_one{
+    color:#999999;
+}
+.li_two{
+    font-weight: bold;
+    padding: 0 0 1% 3%;
+    color:black;
+}
+.li_two span{
+    color:red;
+    display:inline-block;
+    float:right;
+    margin-right: 3%;
+}
+.li_two span img{
+    width:10%;
+    float:right;
+}
+.foot{
+    position: fixed;
+    width: 100%;
+    max-width: 720px;
+    bottom:0;/* 必须填写否则显示bu出来*/
+    background-color:#f8fafb;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.foot-left{
+    width:10%;
+    float:left;
+    color:#55a8b3;
+    padding:3% 0 0 20%;
+}
+.foot-left img{
+    width:100%;
+    max-width: 46px;
+}
+.foot-middle{
+    width:40%;
+    float:left;
+    padding-top:1%;
+    max-height: 100px;
+}
+.foot-middle img{
+    max-width: 94px;
+    border-radius: 50%;
+}
+.foot-right{
+    width:10%;
+    float:right;
+    color:#999999;
+    padding:3% 20% 0 0;
+}
+.foot-right img{
+    max-width: 42px;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 50%;
+    }
+    .li_two{
+        padding: 2% 0 1% 3%;
+    }
+    .foot-right {
+        padding-top: 8%;
+    }
+    .foot-left{
+        padding-top: 9%;
+    }
+
+}
