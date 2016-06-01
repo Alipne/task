@@ -1,0 +1,272 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-size: 62.5%;
+    font-family:Microsoft YaHei, serif;
+    background: #fafafa;
+}
+
+.main{
+    width:100%;
+}
+.main-top{
+    width:100%;
+    min-height: 425px;
+    background: #c7c7c7;
+    position: relative;
+    overflow: hidden;
+}
+.main-top ul{
+    list-style: none;
+}
+.banner{
+    width:100%;
+    position: absolute;
+}
+.banner img{
+    width:100%;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    width: 35px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -25px;
+    cursor: pointer;
+    display: none;
+    background: rgba(0,0,0,0.2);
+    font-size: 3rem;
+    color:gainsboro;
+}
+.main-top:hover .btn{
+    display: block;
+}
+.pre{
+    left:10%;
+}
+.next{
+    right: 10%;
+}
+.num{
+    position: absolute; /* 会把默认宽度给定位0*/
+    left:0;
+    bottom:20px;
+    font-size: 0;
+    width:100%;
+    text-align: center;
+}
+.num ul{
+    list-style:none;
+}
+.num li{
+    width:20px;
+    height:20px;
+    background:#fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin:0 3px;
+    cursor: pointer;   /*对鼠标的动作显示*/
+}
+.num li.active{
+    background: #a00;
+}
+.main-middle{
+    width:80%;
+    margin:0 auto;
+    padding-bottom:15%;
+}
+.middle-1{
+    padding:10% 0 20% 0;
+}
+.middle-1-left{
+    width:20%;
+    float:left;
+    margin: 0 3%;
+}
+.middle-1-left h1{
+    text-align: center;
+    padding: 10% 0 10%;
+}
+.middle-1-left p{
+    font-size:1.6em;
+    color:#999;
+}
+.middle-1-left img{
+    margin:0 38%;
+}
+.middle-1-right{
+    float:right;
+    border-style:none;
+    border-left:1px dashed #dedede;
+    padding:4%;
+}
+.right-box{
+    margin-bottom:20%;
+
+}
+.right-box-people{
+    width:18px;
+    height:21px;
+    background: url(task7/sprite.png) -30px -33px no-repeat;
+}
+.right-box-people h1{
+    margin: -20% 200%;
+    color:#26a26f;
+}
+.right-box p{
+    padding-top: 10%;
+    font-size: 1.6em;
+    color:#999;
+}
+.middle-2{
+    width:100%;
+}
+.middle-2 h1{
+    text-align: center;
+    padding: 7% 0 0 0;
+}
+.middle-2-list{
+    width:100%;
+    padding: 25px 0;
+}
+.middle-2 ul{
+    list-style: none;
+}
+.middle-2 ul li{
+    vertical-align: middle;
+    display: inline-block;
+}
+.list-circle{
+    width:72px;
+    height:72px;
+    background: white;
+    border-radius:50%;
+    box-shadow: 1px 1px 10px #e6e6e6;
+}
+.list-circle span{
+    display: inline-block;
+    color:#26a26f;
+    padding:35% 45%;
+    font-size: 1.6em;
+}
+.middle-2-list p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+    padding: 0 5px;
+    color:#999
+}
+.list-arrow{
+    width:30px;
+    height:26px;
+    background: url(task7/sprite.png) 0 -28px no-repeat;
+}
+.middle-3{
+    padding:10% 0 10%;
+}
+.middle-3 h1{
+    text-align: center;
+    padding-bottom:70px;
+}
+.middle-3-list{
+    width:22.8%;
+    float:left;
+    margin-right:2%;
+    background: white;
+    border:1px solid #dedede;
+}
+.clear{clear:both}
+.middle-3-list img{
+    margin: 6% 30% 0;
+}
+.middle-3-list h1{
+    text-align: center;
+    padding:30px 25px;
+}
+.middle-3-list p{
+    padding:7.4%;
+    font-size: 1.6em;
+    color: #b0b0b0;
+}
+
+.middle-3-list-circle{
+    width: 7%;
+    margin: 22px auto;
+}
+.middle-3-list-nor{
+    width:14px;
+    height:14px;
+    border-radius: 50%;
+    float:left;
+    background: #29b078;
+    margin-right: 2px;
+    border:1px solid #dedede;
+}
+.middle-3-list-spe{
+    width:14px;
+    height:14px;
+    border-radius: 50%;
+    background: white;
+    float:left;
+    margin-right: 2px;
+    border:1px solid #dedede;
+}
+.middle-4{
+    padding:0 0 10%;
+}
+.middle-4 h1{
+    text-align:center;
+    padding:0 0 10%;
+}
+.middle-4-list{
+    width:20%;
+    float:left;
+    background: white;
+}
+.ali{
+    margin:30% 25%;
+}
+.jinshan{
+    margin:30% 40%;
+}
+.huanxin{
+    margin:30% 20%;
+}
+.ronglian{
+    margin:30% 16%;
+}
+.qiniu{
+    margin:30% 25%;
+}
+.main-bottom{
+    background: white;
+    padding-bottom: 25px;
+}
+.main-bottom h1{
+    text-align: center;
+    padding: 20px 0;
+}
+.list{
+    width:80%;
+    margin:0 auto;
+    height:30px;
+    font-size:1.4em;
+    list-style: inherit;
+    color:#a9a9a9;
+}
+.list  li{
+    width:10%;
+    float:left;
+
+}
+.list a{
+    color:#a9a9a9;
+    text-decoration: none;
+}
+.list a:hover{
+    text-decoration: underline;
+    color:#26a26f;
+}
