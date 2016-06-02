@@ -110,7 +110,7 @@ body{
 .right-box-people{
     width:18px;
     height:21px;
-    background: url(task7/sprite.png) -30px -33px no-repeat;
+    background: url(task7-sprite.png) -30px -33px no-repeat;
 }
 .right-box-people h1{
     margin: -20% 200%;
@@ -162,7 +162,7 @@ body{
 .list-arrow{
     width:30px;
     height:26px;
-    background: url(task7/sprite.png) 0 -28px no-repeat;
+    background: url(task7-sprite.png) 0 -28px no-repeat;
 }
 .middle-3{
     padding:10% 0 10%;
