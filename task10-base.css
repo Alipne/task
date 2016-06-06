@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header-top{
+    padding:10px 0;
+    color:#29b078;
+}
+.icon{
+    list-style: none;
+    float: right;
+    margin-bottom: -5px; /*抵消ul中的margin-bottom*/
+}
+.icon li{
+    display: inline-block;
+    padding:0 10px;
+
+}
+.header-bottom{
+    background: #29b078;
+}
+
+.col-md-6 img {
+    padding:10px 0;
+}
+.navbar{
+    margin:0;
+    border:0;
+}
+.navbar-default{
+    background: #29b078;
+    height:84px;
+}
+.navbar-default .navbar-nav>li>a{
+    font-size:1.4em;
+    padding: 2.5rem;
+    color:#fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    border-bottom: 4px solid #fff;
+    color:#fff;
+}
+.show{
+    border-bottom: 4px solid #fff;
+}
+.footer{
+     background: #29b078;
+     color:#fff;
+
+ }
+.footer a{
+    color:#fff;
+}
+.tree{
+    font-size: 16px;
+    padding:3rem 0 5rem 0;
+}
+.contact{
+    padding-bottom:2.5rem;
+}
+.web{
+    font-size: 16px;
+    padding:3rem 0 2rem 0;
+}
+.web-list{
+    padding-bottom:1.2rem;
+}
+.web-list-link{
+    display: inline-block;
+    padding:0 1.8rem 0 0;
+}
+.weixin{
+    display: block;
+    padding: 3rem 0 0 0;
+}
+.footer-bottom{
+    text-align: center;
+    border-top:1px solid #32c086;
+    padding:5px;
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 1220px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 52.5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 42.5%;
+    }
+}

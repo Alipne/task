@@ -1,0 +1,81 @@
+body{
+    font-family:Microsoft YaHei, serif;
+}
+.main{
+    background: #fafafa;
+}
+.main-top img{
+    width:100%;
+
+}
+.title{
+    font-size: 1.6em;
+    padding:2.5rem 0;
+    margin:0;
+}
+.title span{
+    color:#29b078;
+}
+.list,.explain{
+    border:1px solid #ededed;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #ededed;
+    color:#999;
+}
+.list{
+    text-align: center;
+}
+.list li p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color:#000;
+    border-bottom: 1px solid #ededed;
+    padding:20px 0;
+    margin:0;
+}
+.circle{
+    width:10px;
+    height:10px;
+    margin: 0 10px;
+    border-radius:50%;
+    background: #fff;
+    display: inline-block;
+    border:1px solid #ff650e;
+}
+
+.list li a:hover{
+    color:#ff650e;
+}
+.nav li a{
+    width:9rem;
+    margin:0 auto;
+    text-align: left;
+    color:#29b078;
+    padding:10px 0;
+}
+.nav li a:focus,.nav li a:hover{
+    background: #fff;
+}
+.list li a:hover .circle{
+    background:#ff650e;
+}
+.tudou{
+    border-bottom:1px solid #ededed;
+}
+.tudou img{
+    padding:5rem 3rem 2.8rem 7rem;
+    margin:0;
+
+}
+.tudou p{
+
+}
+.explain p{
+    width:84%;
+    margin:2.8rem auto;
+    text-indent: 2em;
+}
+.explain{
+    margin-bottom: 12%;
+}
