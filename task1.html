@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>task1</title>
+    <style type="text/css">
+        .box{
+            width:100%;
+            max-width: 600px;
+            height:600px;
+            margin:0 auto;
+        }
+        .box1{
+            background-color:orange;
+            width:31%;
+            height:31%;
+            margin:1% 1%;
+            float:left;
+            border-radius: 10px;
+        }
+        a{
+            font-size: 2em;
+            text-decoration: none;
+            display: block;
+            padding: 40% 30%;
+            color:#000;
+        }
+        .clear{
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="box">
+    <div class="box1"><a href="task1.html">task1</a></div>
+    <div class="box1"><a href="task3.html">task3</a></div>
+    <div class="box1"><a href="task4.html">task4</a></div>
+    <div class="box1"><a href="task5-1.html">task5</a></div>
+    <div class="box1"><a href="task6-1.html">task6</a></div>
+    <div class="box1"><a href="task7-1.html">task7</a></div>
+    <div class="box1"><a href="task7-2.html">task7</a></div>
+    <div class="box1"><a href="task8.html">task8</a></div>
+    <div class="box1"><a href="task9.html">task9</a></div>
+<div class="clear"></div>
+</div>
+
+<script>
+    window.onload=function() {
+        setInterval(changeColor,1000);
+        var m=0;
+        function changeColor() {
+            var box = document.getElementById("box");
+            var box1 = box.getElementsByTagName("div");
+            var i = Math.floor(Math.random() * 9 );
+            var num = Math.floor(Math.random() * 3 );
+            var color;
+            var colorName;
+            box1[m].style.backgroundColor="orange";
+            switch (num) {
+                case 0:
+                    color="red";
+                    colorName="红色";
+                    break;
+                case 1:
+                    color="blue";
+                    colorName="蓝色";
+                    break;
+                case 2:
+                    color="green";
+                    colorName="绿色";
+                    break;
+            }
+            box1[i].style.backgroundColor= color;
+            m=i;
+            console.log(m);
+        }
+
+    }
+</script>
+</body>
+</html>

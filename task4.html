@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            width: 100%;
+            background: #eff0f4;
+            color: white;
+            font-family: HiraginoSansGB;
+        }
+
+        .header {
+            position: relative;
+            text-align: center;
+            width: 100%;
+            color: white;
+            background: #5fc0cd;
+            padding: 1rem 0;
+        }
+
+        .close {
+            position: absolute;
+            top: 1rem;
+            left: 2rem;
+            font-size: 2rem;
+        }
+
+        .header h1 {
+            width: 30%;
+            max-width: 74px;
+            font-size: 2.25em;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .register {
+            position: absolute;
+            font-size: 2rem;
+            top: 1rem;
+            right: 2rem;
+        }
+
+        .box {
+            width: 100%;
+            background: white;
+            margin: 15px 0;
+        }
+
+        .box img {
+            width: 5%;
+            max-width: 29px;
+            padding: 2%;
+            vertical-align: middle;
+        }
+        .input {
+            vertical-align: middle;
+            font-size: 2em;
+            border-style: none;
+            border-left: 1px darkgrey solid;
+        }
+
+        .Submit {
+            width: 100%;
+            background: #5fc0cd;
+            font-size: 2.25em;
+            margin: 2rem 0;
+            color: white;
+            padding: 1rem;
+            border-style: none;
+        }
+
+        @media screen and (max-width: 480px) {
+            html {
+                font-size: 40%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="close">关闭</div>
+    <h1>登陆</h1>
+    <div class="register">注册</div>
+</div>
+<div class="box">
+    <img src="images/phone.png">
+    <input class="input" type="text" placeholder="请输入手机号">
+</div>
+<div class="box">
+    <img src="images/key.png">
+    <input class="input" type="text" placeholder="请输入密码">
+</div>
+<a href="task5-2.html"><input class="Submit" type="submit" value="登&nbsp;陆"></a>
+</body>
+</html>

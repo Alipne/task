@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            padding:0;
+            margin:0;
+        }
+        img{
+            max-width: 100%;
+        }
+        .container{
+            width: 100%;
+            max-width: 720px;
+            height: 1240px;
+            margin:0 auto;
+            font-size: 62.5%;
+        }
+        .header{
+            padding:1rem 0;
+            background: #5fc0cd;
+            position: relative;
+            text-align: center;
+        }
+        button{
+            background: #55a8b3;
+            border-radius: 10px;
+            font-size: 2.8em;
+            border-style: none;
+            padding:1rem;
+        }
+        .choose1{   /*必须是行内元素否则会占一行*/
+            color:white;
+        }
+        .choose2{
+            background: white;
+            color:#5fc0cd;
+            margin-left: -1rem;
+        }
+        .locate{
+            width:6%;
+            position:absolute;
+            top:30%;
+            right:1%;
+        }
+        .middle{
+            width:100%;
+            height:95%;
+        }
+        .top{
+            width:100%;
+            border-right: 0;
+            border-left: 0;
+        }
+        .top1{
+            width:33.3%;
+            padding:2% 0 2% 10%;
+            font-size: 2.8em;
+            color:#a1a1a1;
+            float:left;
+            border-style:none;
+            border-right:1px solid #e2e6e8;
+        }
+        .top1 span{
+            padding-left:33%;
+        }
+        .clear{
+            clear:both;
+        }
+        .date{
+            border:1px solid #e1e5e7;
+            font-size:2.8em;
+            border-left:0;
+            border-right: 0;
+        }
+        .date ul{
+            list-style:none;
+            padding:2% 0 2% 4%;
+        }
+        .date ul li{
+            padding-bottom:1%;
+        }
+        .li_one{
+            color:#999999;
+        }
+        .li_two{
+            font-weight: bold;
+            padding: 0 0 1% 6%;
+            color:black;
+        }
+        .li_two span{
+            color:red;
+            display:inline-block;
+            float:right;
+            margin-right: 3%;
+        }
+        .li_two span img{
+            width:12%;
+            float:right;
+        }
+        .foot{
+            position: fixed;
+            width: 100%;
+               max-width: 720px;
+            bottom:0;/* 必须填写否则显示bu出来*/
+            background-color:#f8fafb;
+            font-size: 1.25rem;
+            text-align: center;
+        }
+        .foot-left{
+            width:10%;
+            float:left;
+            color:#55a8b3;
+            padding:3% 0 0 20%;
+        }
+        .foot-left img{
+            width:100%;
+            max-width: 46px;
+        }
+        .foot-middle{
+            width:40%;
+            float:left;
+            padding-top:1%;
+            max-height: 100px;
+        }
+        .foot-middle img{
+            max-width: 94px;
+            border-radius: 50%;
+        }
+        .foot-right{
+            width:10%;
+            float:right;
+            color:#999999;
+            padding:3% 20% 0 0;
+        }
+        .foot-right img{
+            max-width: 42px;
+        }
+
+        @media screen and (max-width: 480px) {
+            html {
+                font-size: 50%;
+            }
+            .li_two{
+                padding: 2% 0 1% 9%;
+            }
+            .foot-right {
+                padding-top: 8%;
+            }
+            .foot-left{
+                padding-top: 9%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <button class="choose1" type="button">找雇主</button>
+        <button class="choose2"  type="button">找护工</button>
+        <div class="locate"><img src="images/map.png"> </div>
+    </div>
+    <div class="middle">
+        <div class="top">
+            <form>
+                <select class="top1"><option value="top1">所在地</option></select>
+                <select class="top1"><option value="top1">食宿</option></select>
+                <select class="top1"><option value="top1">病人情况</option></select>
+            </form>
+        </div>
+        <div class="clear"></div>
+        <div class="date">
+            <ul>
+                <li class="li_one"><img src="images/date.png"> 服务日期</li>
+                <li class="li_two">2015-7-5至2015-7-12<span>35元/小时&nbsp;<a href="task5-1.html"><img src="images/back2.png"></a></span></li>
+                <li class="li_one"><img src="images/location1.png"> 北京.通州.果园</li>
+            </ul>
+        </div>
+        <div class="date">
+            <ul>
+                <li class="li_one"><img src="images/date.png"> 服务日期</li>
+                <li class="li_two">2015-7-5至2015-7-12<span>25元/小时&nbsp;<a href="task5-1.html"><img src="images/back2.png"></a></span></li>
+                <li class="li_one"><img src="images/location1.png"> 北京.通州.果园</li>
+            </ul>
+        </div>
+        <div class="date">
+            <ul>
+                <li class="li_one"><img src="images/date.png"> 服务日期</li>
+                <li class="li_two">2015-7-5至2015-7-12<span>45元/小时&nbsp;<a href="task5-1.html"><img src="images/back2.png"></a></span></li>
+                <li class="li_one"><img src="images/location1.png"> 北京.通州.果园</li>
+            </ul>
+        </div>
+        <div class="date">
+            <ul>
+                <li class="li_one"><img src="images/date.png"> 服务日期</li>
+                <li class="li_two">2015-7-5至2015-7-12<span>45元/小时&nbsp;<a href="task5-1.html"><img src="images/back2.png"></a></span></li>
+                <li class="li_one"><img src="images/location1.png"> 北京.通州.果园</li>
+            </ul>
+        </div>
+        <div class="date">
+            <ul>
+                <li class="li_one"><img src="images/date.png"> 服务日期</li>
+                <li class="li_two">2015-7-5至2015-7-12<span>45元/小时&nbsp;<a href="task5-1.html"><img src="images/back2.png"></a></span></li>
+                <li class="li_one"><img src="images/location1.png"> 北京.通州.果园</li>
+            </ul>
+        </div>
+        <div class="date">
+            <ul>
+                <li class="li_one"><img src="images/date.png"> 服务日期</li>
+                <li class="li_two">2015-7-5至2015-7-12<span>45元/小时&nbsp;<a href="task5-1.html"><img src="images/back2.png"></a></span></li>
+                <li class="li_one"><img src="images/location1.png"> 北京.通州.果园</li>
+            </ul>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="foot-left"><img src="images/home.png"><p>首页</p> </div>
+        <div class="foot-middle"><img src="images/home1.png"> </div>
+        <div class="foot-right"><img src="images/me.png"><p>我的</p> </div>
+    </div>
+</div>
+</body>
+</html>

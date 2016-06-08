@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task6-2</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        .wrap{
+            margin:0 auto;
+            width:100%;
+            max-width:640px;
+            background: #29bde0;
+            font-size:62.5%;
+        }
+        .header{
+            position: relative;
+            padding:3%;
+            border-bottom: 1px solid white;
+        }
+        .home{
+            width:10%;
+            position:absolute;
+            top:20%;
+            left:3.1%;
+        }
+        .home img{
+            width:80%;
+            max-width: 51px;
+        }
+        h1{
+            color:white;
+            text-align: center;
+            font-size: 3.4em;
+        }
+        .more{
+            width:9%;
+            position:absolute;
+            top:20%;
+            right:3.1%;
+        }
+        .more img{
+            width:80%;
+            max-width:40px;
+        }
+        .middle{
+            position:relative;
+        }
+        .logo{
+            width:55%;
+            margin:3.9% auto;
+            background-repeat: no-repeat;
+        }
+        .logo img{
+            width:100%;
+        }
+        .logo h2{
+            text-align: center;
+            margin-top:-19%;
+            font-size: 4.8em;
+            color:white;
+
+        }
+        p{
+            width:75.6%;
+            margin:0 auto;
+            font-size: 3.3em;
+            font-weight: bold;
+            color:#ffc865;
+            padding:6% 0 9.7% 0;
+        }
+        ul{
+            width:73.2%;
+            list-style: none;
+            margin:0 auto;
+            padding-bottom:3.75%;
+        }
+        li{
+            color:white;
+            font-size:2.6em;
+        }
+        .date{
+            background: white;
+            border-bottom: 1px solid #dddddd;
+        }
+        .li_one{
+            color:black;
+            font-size:3em;
+            padding-top:2.6%;
+            padding-bottom:4.1%;
+        }
+        span{
+            color:#c7c7c7;
+            font-size: 0.67em;
+            display: inline-block;
+            margin-left:50%;
+        }
+        .li_two{
+            color:#a6a6a6;
+            font-size:2.6em;
+            padding-bottom:2%;
+        }
+        .footer{
+            width:100%;
+            max-width:640px;
+            position:fixed;
+            background: #99dff0;
+            font-size: 4em;
+            color:white;
+            font-weight: bold;
+            bottom:0;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        .again{
+            background: #f66f6f;
+            padding:3.6% 8.3%;
+            margin:3.6% 3.9% 3% 3.6%;
+            float:left;
+            border-radius: 10px;
+        }
+        .share{
+            background: #fbb435;
+            padding:3.8% 5.2%;
+            margin:3.6% 3.9% 3% 0; /* 此处不可以直接写px，否则无法达到自适应*/
+            float:right;
+            border-radius: 10px;
+        }
+        @media screen and (max-width: 480px) {
+            html {
+                font-size: 40%;
+            }
+        }
+
+</style>
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+        <div class="home"><img src="task6/home.png"></div>
+        <h1>游戏结果</h1>
+        <div class="more"><img src="task6/more.png"> </div>
+    </div>
+    <div class="middle">
+        <div class="logo">
+            <img src="task6/logo.png"> <h2>卧底胜利</h2></div>
+        <p>太棒了！你知道么？在捉鬼游戏中只有20%的卧底取得游戏的最终胜利哦！</p>
+    </div>
+    <ul>
+        <li>本次游戏共计用时0小时25分钟</li>
+        <li>杀&nbsp;手0人&nbsp;&nbsp;警&nbsp;察1人&nbsp;&nbsp;平&nbsp;民6人</li>
+        <li>狙击手0人&nbsp;&nbsp;医&nbsp;生1人</li>
+        <li>卧底词汇：爱新觉罗</li>
+        <li>水民词汇：努尔哈赤</li>
+    </ul>
+    <div class="date">
+        <ul>
+            <li class="li_one">第1天<span>0小时7分</span></li>
+            <li class="li_two">晚上：5号被杀手杀死，5号是水民</li>
+            <li class="li_two">白天：8号被全民投票投死，8号是杀手</li>
+        </ul>
+    </div>
+    <div class="date">
+        <ul>
+            <li class="li_one">第2天<span>0小时7分</span></li>
+            <li class="li_two">晚上：5号被杀手杀死，5号是水民</li>
+            <li class="li_two">白天：8号被全民投票投死，8号是杀手</li>
+        </ul>
+    </div>
+    <div class="date">
+        <ul>
+            <li class="li_one">第3天<span>0小时7分</span></li>
+            <li class="li_two">晚上：5号被杀手杀死，5号是水民</li>
+            <li class="li_two">白天：8号被全民投票投死，8号是杀手</li>
+        </ul>
+    </div>
+    <div class="date">
+        <ul>
+            <li class="li_one">第4天<span>0小时7分</span></li>
+            <li class="li_two">晚上：5号被杀手杀死，5号是水民</li>
+            <li class="li_two">白天：8号被全民投票投死，8号是杀手</li>
+        </ul>
+    </div>
+    <div class="date">
+        <ul>
+            <li class="li_one">第5天<span>0小时7分</span></li>
+            <li class="li_two">晚上：5号被杀手杀死，5号是水民</li>
+            <li class="li_two">白天：8号被全民投票投死，8号是杀手</li>
+        </ul>
+    </div>
+    <div class="footer">
+        <a class="again" href="task6-1.html">再来一局</a>
+        <a class="share" href="task6-3.html">上传并分享</a>
+    </div>
+</div>
+</body>
+</html>
