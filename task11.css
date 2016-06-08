@@ -1,0 +1,142 @@
+body{
+    font-family:Microsoft YaHei, serif;
+}
+.main{
+    background: #fafafa;
+}
+.title{
+    font-size: 1.6em;
+    padding:2.5rem 0;
+    margin:0;
+    border-bottom: 1px solid #d0d6d9;
+}
+.title span{
+    color:#29b078;
+}
+.direction {
+    padding:20px 0;
+    border-bottom:1px solid #edf1f2;
+
+}
+.direction >li>a {
+    padding:0;
+    margin-right: 2rem;
+    color:#000;
+    border-radius: 0;
+}
+.direction >li>span{
+    color:#999;
+    padding-right:1.5rem;
+}
+.direction >li>span:hover{
+    background:#fafafa;
+}
+.direction>li>a:hover{
+    background:#29b078;
+}
+.link-spe{
+    color:#999;
+}
+.active{
+    background-color:#29b078;
+}
+.col-lg-4 ul{
+    list-style: none;
+}
+.web-font{
+    background: #fff;
+    color:#999;
+    margin:3.8rem 0;
+    position: relative;
+}
+.line1{
+    padding:20px 0;
+    color:#000;
+}
+.line1 h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.line2,.line3,.line4,.line5,.line6{
+    border-top:1px solid #edf1f2;
+    font-size:1.2rem;
+}
+.line2 ul li,img{
+    display: inline-block;
+}
+.door{
+    border-right:1px solid #edf1f2;
+}
+.line2 img{
+    margin-left:1rem;
+}
+.container-fluid{
+    padding:0 10px;
+}
+.line3 p{
+    padding:10px 0;
+    margin:0;
+}
+.line3 span{
+    color:#ff0000;
+}
+.salary{
+    border-right:1px solid #edf1f2;
+}
+.salary p{
+    padding:4.1rem 3rem;
+}
+.salary-line{
+    border-bottom:1px solid #edf1f2;
+}
+.salary-line p,.salary-line1 p{
+    padding:1rem 0;
+    margin:0;
+}
+.salary-line p span,.salary-line1 p span{
+    padding-left: 8.5rem;
+}
+.clear-fluid{
+    padding:0;
+}
+.line5 p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding:10px;
+    color:#000;
+    margin:0;
+}
+.line5 p span{
+    color:#ff0000;
+}
+.line6 p{
+    padding:10px;
+    margin:0;
+}
+.flip{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    background: rgba(0,0,0,0.5);
+    backface-visibility: hidden;
+    color:#fff;
+
+}
+.flip h1{
+    padding:7.2rem 0 2.8rem 0;
+    text-align: center;
+    font-size:1.6rem;
+}
+.flip p{
+    width:76%;
+    margin:0 auto;
+}
+.web-font:hover .flip{
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+
+

@@ -5,6 +5,7 @@
 .header-top{
     padding:10px 0;
     color:#29b078;
+    line-height: 23px;
 }
 .icon{
     list-style: none;
@@ -29,7 +30,6 @@
 }
 .navbar-default{
     background: #29b078;
-    height:84px;
 }
 .navbar-default .navbar-nav>li>a{
     font-size:1.4em;
@@ -39,6 +39,10 @@
 .navbar-default .navbar-nav>li>a:hover{
     border-bottom: 4px solid #fff;
     color:#fff;
+}
+.navbar-toggle{
+    margin-top: 19px;
+    margin-bottom: 19px;
 }
 .show{
     border-bottom: 4px solid #fff;
