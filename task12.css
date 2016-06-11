@@ -1,0 +1,276 @@
+* {
+  padidng: 0;
+  margin: 0;
+}
+p {
+  padidng: 0;
+  margin: 0;
+}
+body {
+  font-family: "微软雅黑";
+}
+.header .header-top {
+  background: #1d7ad9;
+  color: #ffffff;
+}
+.header .header-top .phone {
+  padding: 12px 0;
+}
+.icon {
+  float: right;
+}
+.icon a {
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px;
+}
+.icon a:hover {
+  color: #333333;
+  background: #ffffff;
+  padding: 12px 36px;
+}
+.h-bottom {
+  padding: 2.5rem 0;
+}
+.h-bottom li + li {
+  margin-left: 5rem;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.h-bottom li a {
+  color: #000000;
+}
+.h-bottom li a:hover {
+  background: #1d7ad9;
+  color: #ffffff;
+}
+.nav-pills > li.active > a {
+  background: #1d7ad9;
+}
+.nav-pills > li.active > a:hover {
+  background: #1d7ad9;
+}
+.navbar-default {
+  background: #f8f8f8;
+  border: 0;
+}
+.main {
+  margin-top: 38px;
+}
+.main h1 {
+  font-size: 22px;
+}
+.line {
+  margin-bottom: 50px;
+  padding: 0;
+  list-style: none;
+}
+.line li {
+  display: inline-block;
+  margin-right: -5px;
+}
+.line .step1,
+.line .step2 {
+  width: 25%;
+  height: 5px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 4px;
+}
+.line .step1 span,
+.line .step2 span {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: -12px 40%;
+  padding-top: 1%;
+  border-radius: 50%;
+  background: #ff7f02;
+  text-align: center;
+}
+.line .step1 p,
+.line .step2 p {
+  margin-top: 34px;
+}
+.line .step1 {
+  background: #ff7f02;
+  color: #ff7f02;
+}
+.line .step1 span {
+  color: #ffffff;
+}
+.line .step2 {
+  background: #cccccc;
+  color: #cccccc;
+}
+.line .step2 span {
+  color: #ffffff;
+  background: #cccccc;
+}
+.main-middle {
+  /* border:1px solid @main_line;
+	border-top: 0; */
+}
+.main-middle img {
+  padding: 12px 7px 12px 12px;
+}
+.main-middle span {
+  color: #1d7ad9;
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-middle ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.box {
+  background: #f4f4f4;
+}
+.box_type {
+  border: 1px solid #e8e8e8;
+  border-top: 0;
+}
+.type {
+  background: #fbfcff;
+  border: 1px solid #e8e8e8;
+  border-top: 0;
+}
+.type label {
+  padding: 34px 0 34px 26px;
+}
+.type label {
+  font-weight: normal;
+  font-size: 18px;
+  color: #666666;
+}
+.type label i {
+  width: 18px;
+  height: 18px;
+  margin-right: 18px;
+  border-radius: 50%;
+  background: #f8f9fb;
+  display: inline-block;
+  border: 1px solid #d6d6d6;
+  vertical-align: middle;
+}
+.type1,
+.type2 {
+  background: #fbfcff;
+  border:0;
+  padding-top: 2rem;
+}
+.type1 label,
+.type2 label {
+  font-weight: normal;
+  font-size: 18px;
+  color: #666666;
+}
+.type1 label i,
+.type2 label i {
+  width: 18px;
+  height: 18px;
+  margin-right: 18px;
+  border-radius: 50%;
+  background: #f8f9fb;
+  display: inline-block;
+  border: 1px solid #d6d6d6;
+  vertical-align: middle;
+}
+@media screen and (min-width: 971px) {
+  .type2 {
+    padding-bottom: 2rem;
+  }
+  .type2_set {
+    margin-top: -30px;
+    margin-left: 19%;
+  }
+}
+.label1 {
+  padding-left: 41px;
+}
+input[type="radio"]:checked + i {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: inline-block;
+  border: solid 6px #1d7ad9;
+}
+select {
+  font-size: 1.4rem;
+  padding: .5rem 3rem .5rem 1rem;
+  margin-left: 27px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(task12/arrow.png) 90% no-repeat;
+  color: #a1a1a1;
+  border: 1px solid #e8e8e8;
+}
+.text {
+  width: 70px;
+  height: 30px;
+}
+.main-bottom {
+  border: 1px solid #e8e8e8;
+  border-top: 0;
+  margin-bottom: 56px;
+}
+.main-bottom .next {
+  width: 180px;
+  font-size: 1.8rem;
+  background: #e15053;
+  text-align: center;
+  color: #ffffff;
+  margin: 12% auto;
+  margin-bottom: 8%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main-bottom p {
+  padding: 1rem 4.3rem;
+}
+footer {
+  background: #f9f9f9;
+}
+.footer-top {
+  color: #999999;
+  padding: 5rem 0;
+}
+.footer-top .theme {
+  padding-bottom: 4.5rem;
+  font-size: 18px;
+}
+.footer-top .web {
+  float: left;
+  margin: 0 3.3rem 1.6rem 0;
+}
+.footer-top a {
+  color: #999999;
+}
+.footer-top a:hover {
+  color: #1d7ad9;
+}
+.footer-top .contact {
+  float: right;
+}
+.footer-top .phone {
+  float: left;
+  padding-right: 1.5rem;
+  line-height: 27px;
+}
+@media screen and (min-width: 971px) {
+  .contact {
+    padding-left: 6%;
+  }
+}
+.footer-bottom {
+  padding: 10px 0;
+  background: #1d7ad9;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+}

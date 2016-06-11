@@ -1,0 +1,299 @@
+@charset:"utf-8";
+.clear(){padding:0;margin:0;}
+.fl(){float:left;}
+.fr(){float:right;}
+.bgc(@bg:#1d7ad9){background:@bg;}
+.main_bgc(){background: #fbfcff;}
+.main_tpbgc(){background: #f4f4f4;}
+.color(@white:#fff){color:@white;}
+.a_line(){text-decoration: none;}
+.ul_disc(){list-style: none;}
+.fm(){font-family: "微软雅黑"}
+.dib(@b: inline-block){display:@b;}
+.fs16(){font-size: 16px;}
+.bdius(@w:4px;){border-radius:@w;}
+.text_center(){text-align: center;}
+.ver_center(){vertical-align: middle}
+.po_r(){position:relative;}
+.po_a(){position:absolute;}
+@main_line:#e8e8e8;
+*{.clear();}
+p{.clear();}
+body{.fm();}
+//顶部导航
+.header{
+	.header-top{
+		.bgc();
+		.color();
+		.phone{
+			padding:12px 0;
+		}
+	}
+}
+.icon{
+	.fr();
+	a{
+		.a_line();
+		.dib();
+		.color();
+		.fs16();
+		padding: 12px;
+		&:hover{
+			    .color(#333);
+                .bgc(#fff);
+                 padding:12px 36px;
+		}
+
+	}
+
+}
+.h-bottom{
+    padding: 2.5rem 0;
+    li+li{
+    	margin-left: 5rem;
+    	.bgc(#fff);
+    	.bdius(); 
+    	}
+    li{
+    	a{
+    		.color(#000);
+    		&:hover{
+    		.bgc();
+    		.color();
+    	    }
+        }
+    		
+    }    
+}
+.nav-pills>li.active>a{
+	.bgc();
+	&:hover{
+		.bgc();
+	}
+}
+.navbar-default {
+    .bgc(#f8f8f8 );
+    border:0;
+}
+.main{
+	margin-top: 38px;
+	h1{
+		font-size: 22px;
+	}
+}
+.step(){
+		width:25%;
+		height: 5px;
+		font-size: 18px;
+		
+		.text_center();
+		.bdius(); 
+		
+
+		span{
+			.dib(block);
+			width: 25px;
+			height: 25px;
+			margin: -12px 40%;
+			padding-top: 1%;
+			.bdius(50%);
+			.bgc(#ff7f02);
+			.text_center();
+			
+		}
+	p{
+		margin-top: 34px;
+	}
+}
+.line{
+	margin-bottom:50px;
+	padding:0;
+    .ul_disc();
+	li{
+		.dib();
+		margin-right: -5px;
+	}
+	.step1,.step2{
+		.step();
+	}
+	.step1{
+		.bgc(#ff7f02);
+		.color(#ff7f02);
+		span{
+			.color();
+		}
+	}	
+	.step2{
+		.bgc(#ccc);
+		.color(#ccc);
+		span{
+			.color();
+			.bgc(#ccc);
+		}
+	}
+}
+.main-middle{
+	img{
+		padding:12px 7px 12px 12px;	
+	}
+	span{
+		.color(#1d7ad9);
+		font-size: 18px;
+		.dib();
+		vertical-align: middle;
+	}
+	
+	/* border:1px solid @main_line;
+	border-top: 0; */
+	ul{
+		.ul_disc();
+		padding:0;
+		margin-bottom: 0;
+	}
+	li{
+
+	}
+}
+.box{
+	.main_tpbgc();
+	&_type{
+		border:1px solid #e8e8e8;
+		border-top: 0;
+	}
+}
+.type_common(){
+		label{
+			
+			font-weight: normal;
+			font-size: 18px;
+			.color(#666);
+			i{
+				width: 18px;
+				height:18px;
+				margin-right: 18px;
+				.bdius(50%);
+				.bgc(#f8f9fb);
+				.dib();
+				border:1px solid #d6d6d6;
+				.ver_center();
+			}
+		}
+		.main_bgc();
+		border:1px solid @main_line;
+		border-top: 0;
+}
+.type{
+    label{padding: 34px 0 34px 26px;}
+    .type_common();
+}
+.type1,.type2{
+	 .type_common();
+	 border:0;
+	 padding-top: 2rem;
+}
+@media screen and (min-width:971px){
+	.type2{
+	padding-bottom: 2rem;
+	&_set{
+		margin-top: -30px;
+        margin-left: 19%;
+	}
+}
+}
+
+
+.label1{
+	padding-left: 41px;
+}
+
+
+input[type="radio"]:checked+i{
+		width: 18px;
+		height:18px;
+		.bdius(50%);
+		.dib();
+		border:solid 6px #1d7ad9;
+	}
+select{ 
+	font-size: 1.4rem;
+	padding:.5rem 3rem .5rem 1rem;
+	margin-left: 27px;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url(../img/arrow.png) 90% no-repeat;
+    color:#a1a1a1;
+    border:1px solid #e8e8e8;
+}
+.text{
+	width: 70px;
+	height:30px;
+} 
+
+
+
+//中间的部分先搁置
+
+.main-bottom{
+	border:1px solid #e8e8e8;
+	border-top: 0;
+	margin-bottom: 56px;
+	.next{
+		width: 180px;
+		font-size: 1.8rem;
+		.bgc(#e15053);
+		.text_center();
+		.color();
+		margin:12% auto;
+		margin-bottom: 8%;
+		.bdius();
+		cursor: pointer;
+	}
+	p{
+		padding: 1rem 4.3rem;
+	}
+}
+footer{
+	.bgc(#f9f9f9);
+
+}
+.footer-top{
+    .color(#999);
+    padding: 5rem 0;
+    .theme{
+    	padding-bottom: 4.5rem;
+    	font-size: 18px;
+    	}
+    .web{
+    	.fl();
+    	margin: 0 3.3rem 1.6rem 0;
+    }
+    a{
+    	.color(#999);
+    	&:hover{
+    		.color(#1d7ad9);
+    	}
+    }
+    .contact{
+    	.fr();
+    }
+    .phone{
+    	.fl();
+    	padding-right: 1.5rem;
+    	line-height: 27px;
+    }
+    
+}
+@media screen and (min-width:971px){
+	.contact{
+    	padding-left: 6%;   //在屏幕大于971px时右边部分会有空白
+    }
+}
+
+.footer-bottom{
+	padding:10px 0;
+	.bgc();
+	.text_center();
+	.color();
+	font-size: 12px;
+}
